@@ -1,13 +1,13 @@
 import { connect } from "react-redux";
-import Button from "react-bootstrap/Button";
 import "./App.scss";
+
+//Custom Components
+import NavbarComp from "./components/NavbarComp";
 
 function App(props) {
   return (
     <div>
-      The count is {props.count}
-      <Button onClick={props.increment}>increment</Button>
-      <Button onClick={props.incrementAsync}>incrementAsync</Button>
+      <NavbarComp />
     </div>
   );
 }
