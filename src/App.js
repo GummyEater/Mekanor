@@ -1,6 +1,6 @@
-import "./App.css";
 import { connect } from "react-redux";
 import Button from "react-bootstrap/Button";
+import "./App.scss";
 
 function App(props) {
   return (
