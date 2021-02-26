@@ -1,6 +1,6 @@
 import { connect } from "react-redux";
 import "./App.scss";
-
+import "bootswatch/dist/darkly/bootstrap.min.css";
 //Custom Components
 import NavbarComp from "./components/NavbarComp";
 
